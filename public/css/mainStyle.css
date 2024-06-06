@@ -1,0 +1,182 @@
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header form {
+    margin-bottom: 10px;
+}
+
+.header input[type="text"],
+.header select {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.header button[type="submit"] {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header a.button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.header a.button.register {
+    background-color: #28a745;
+}
+
+.welcome-button {
+    padding: 8px 20px;
+    background-color: f0f0f0;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.welcome-button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.book-details h2 {
+    margin-top: 0;
+}
+
+.book-details p {
+    margin: 5px 0;
+}
+
+.book-details .buttons {
+    margin-top: 15px;
+}
+
+.book-details button,
+.book-details a.change-book-info {
+    margin-top: 10px;
+    display: block;
+}
+
+.book-details p.out-of-stock {
+    color: red;
+    margin-top: 10px;
+}
+
+.book-details button.buy,
+.book-details button.favorites,
+.book-details button.remove-from-cart {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.book-details button.remove-from-cart {
+    background-color: #dc3545;
+}
+
+.book-details a.change-book-info {
+    padding: 8px 20px;
+    background-color: #ffc107;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.book {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.book-cover {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.footer .button:hover {
+    background-color: #0056b3;
+}
